@@ -1,0 +1,1 @@
+write.csv(df, file = "Clean_Data.csv") #write to CSV in working directory
