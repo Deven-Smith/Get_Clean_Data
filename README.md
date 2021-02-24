@@ -53,8 +53,11 @@ ESANN 2013. Bruges, Belgium 24-26 April 2013.
     - Labels the dataset with activity names by replacing the activity IDs
   - feature_rename.R
     - Performs renaming/cleanup of data attribute names to more intuitive names
+  - summary.R
+    - Summarises the data by taking the mean of all attributes grouped by activity description and subject
   - export_data.R
     - Performs the write to CSV function to export the cleaned data set
+    - Performs the write to CSV function to export the summarised data set
     
 - Clean_Data.csv
   - CSV file for the final cleaned data set
