@@ -37,5 +37,4 @@ trn <- read.table(train,                                 #read in train data
 #remove objects from environment
 rm(list=c("activity_labels", "features", 
           "test", "test_lab", "test_subject",
-          "train", "train_lab", "train_subject",
-          "path"))
+          "train", "train_lab", "train_subject"))
